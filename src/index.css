@@ -1,0 +1,31 @@
+body {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	padding-top: 180px;background-color:white;   
+}
+
+.container{ 
+	padding:20px;background-color: black;border-radius: 5px;
+}
+
+.container button{
+	border: none;outline: 0;width: 60px;height: 60px;margin: 5px;background-color: #262834;border-radius: 5px;
+	font-weight:500px;color: white;cursor: pointer;font-size: 18px;
+}      
+.container input{
+	 background-color:rgb(14, 2, 2);color: white; border-radius: 10px;border: none;outline: 0; 
+	text-align: right;flex:1;font-size: 30px;width: 265px;height: 75px;font-weight: 500px;
+}
+
+button:active{
+	  background-color:rgb(54, 53, 53); 
+}
+
+.container .equal{
+	width: 130px;
+}
+
+#highlight{
+	background-color: rgb(62, 175, 175);
+}
